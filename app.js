@@ -22,8 +22,8 @@ console.log(
 console.log(
   "My name is " +
     myName +
-    ", i am " +
+    " i am " +
     (currentYear - YearOfBirth) +
-    " yaers old,my hobby is " +
+    " yaers old, my hobby is " +
     myHobby
 );
