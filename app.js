@@ -4,15 +4,18 @@ let ueserAdress;
 let userEmail;
 let yearOfBirth;
 
-let myNameIS = "nika";
+let myName = "NIKA";
 let YearOfBirth = 1994;
 let currentYear = 2022;
-let myHobby = "fishing";
+let myHobby = "FISHING";
 
-console.log(myNameIS);
+console.log(myName);
 console.log(YearOfBirth);
 console.log(currentYear);
 console.log(myHobby);
 
-let iam = currentYear - YearOfBirth;
-console.log("iam", iam);
+console.log(
+  `my name is ${myName} i am ${
+    currentYear - YearOfBirth
+  } years old, my hobby is ${myHobby}`
+);
