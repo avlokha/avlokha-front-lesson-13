@@ -19,3 +19,11 @@ console.log(
     currentYear - YearOfBirth
   } years old, my hobby is ${myHobby}`
 );
+console.log(
+  "My name is " +
+    myName +
+    ", i am " +
+    (currentYear - YearOfBirth) +
+    " yaers old,my hobby is " +
+    myHobby
+);
